@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+    <head>
+    
+        <Title>Rango</Title>
+    </head>
+        
+    <body>
+        
+        <h1>Rango says here is the about page.</h1>
+        
+        <div>
+            {{message}}
+        </div>
+        
+        <div> 
+            <a href="/rango/">Index</a><br />
+            <img src="{% static 'images/django.jpg' %}" alt="Picture of Rango"/>
+            <img src="{{ MEDIA_URL }}cat.jpg" alt="Cat"/>
+        
+        </div>
+    
+    </body>
+
+</html>
