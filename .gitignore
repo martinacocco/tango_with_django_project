@@ -1,2 +1,6 @@
+#DB suite
 db.sqlite3
-.DS_Store
+
+#Machine specific files
+*.pyc
+*.DS_Store

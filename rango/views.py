@@ -12,7 +12,7 @@ def index(request):
     return render(request, 'rango/index.html', context_dict)
 
 def about(request):
-    context_dict = {'message': "This tutorial has been put together by Martina Cocco."}
+    context_dict = {'boldmessage': "This tutorial has been put together by Martina Cocco."}
     return render(request, 'rango/about.html', context=context_dict)
 
 def show_category(request, category_name_slug):
